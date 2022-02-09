@@ -10,7 +10,7 @@
 
 <%--Your name: ${param.employeeName}--%>
 
-Your name: ${nameAttribute} ${myAttribute}
+Your name: ${nameAttribute}
 
 <br>
 <br>
