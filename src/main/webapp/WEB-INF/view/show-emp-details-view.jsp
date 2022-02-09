@@ -8,7 +8,13 @@
 <br>
 <br>
 
-Your name: ${param.employeeName}
+<%--Your name: ${param.employeeName}--%>
+
+Your name: ${nameAttribute} ${myAttribute}
+
+<br>
+<br>
+<a href="/">Start page</a>
 
 </body>
 
