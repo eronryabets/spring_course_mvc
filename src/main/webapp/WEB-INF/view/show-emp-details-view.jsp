@@ -10,11 +10,19 @@
 
 <%--Your name: ${param.employeeName}--%>
 
-Your name: ${nameAttribute}
+Your name: ${employee.name}
+<br><br>
+Your surname: ${employee.surname}
+<br><br>
+Your salary: ${employee.salary}
+
 
 <br>
 <br>
-<a href="/">Start page</a>
+<br>
+<br>
+<br>
+<a href="/employee/">Start page</a>
 
 </body>
 
