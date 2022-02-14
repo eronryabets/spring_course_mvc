@@ -12,15 +12,15 @@
 <%--Your name: ${param.employeeName}--%>
 
 Your name: ${employee.name}
-<br><br>
+<br>
 Your surname: ${employee.surname}
-<br><br>
+<br>
 Your salary: ${employee.salary}
-<br><br>
+<br>
 Your department: ${employee.department}
-<br><br>
+<br>
 Your car: ${employee.carBrand}
-<br><br>
+<br>
 Your Language(s):
 <ul>
     <c:forEach var="lang" items="${employee.languages}">
@@ -30,15 +30,13 @@ Your Language(s):
     </c:forEach>
 </ul>
 Phone number: ${employee.phoneNumber}
-<br><br>
+<br>
 Email: ${employee.email}
 
 
 <br>
 <br>
-<br>
-<br>
-<br>
+
 <a href="/employee/">Start page</a>
 
 </body>
